@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/tradestore.jar .
 
 # set the host
-ENV HOST=192.168.0.208
+ENV HOST=[INSERT_YOUR_HOST_IP]
 
 
 # Expose the port that your application will run on
