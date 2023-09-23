@@ -1,11 +1,11 @@
 # TradeStore
 TradeStore repository 
 
-# Build and deployment
+### Build and deployment
 
-# Building and deploying Docker Image
+### Building and deploying Docker Image
 
-# Posting Trades
+### Posting Trades
 
 
 
