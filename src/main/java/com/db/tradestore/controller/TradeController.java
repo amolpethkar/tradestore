@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import com.db.tradestore.exception.InvalidTradeException;
 import com.db.tradestore.model.Trade;
@@ -65,6 +66,7 @@ public class TradeController {
      *
      * @return List<Trade> containing all the trades in the system.
      */
+    @GetMapping("/trade")
     public List<Trade> findAllTrades() {
         log.info("Entering findAllTrades method.");
 
